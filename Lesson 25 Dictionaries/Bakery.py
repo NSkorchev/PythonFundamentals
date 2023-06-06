@@ -1,0 +1,11 @@
+# Read user input
+products = {}
+data = input().split()
+
+# Logic
+for index in range(0, len(data), 2):
+    key = data[index]
+    value = int(data[index + 1])
+    products[key] = value
+# Output
+print(products)
